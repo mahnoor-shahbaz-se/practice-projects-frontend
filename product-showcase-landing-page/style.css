@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(
+        180deg,
+        #101010,
+        #070707
+    );
+    font-family: "Manrope", "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #0E0E0E;
+    border-bottom: 2px solid #252525;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.45);
+    min-height: 90px;
+}
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#D8D8D8;
+    font-weight:600;
+    letter-spacing:.4px;
+    transition:.5s;
+}
+
+nav a:hover{
+    color:#D4AF37;
+}
+
+#logo{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#hero{
+    background-color: #121212;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+    color: #FFFFFF;
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    border: 1px solid #3A3A3A;
+    border-radius: 20px;
+    padding: 60px 55px;
+    margin:40px auto;
+    transition:.4s;
+}
+
+#hero:hover{
+    transform:translateY(-5px);
+}
+
+#laptop{
+    border: 2px solid #2A2A2A;
+    border-radius: 20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 35px;
+    transition:.4s;
+}
+
+#laptop:hover{
+    transform:scale(1.02);
+}
+
+h1{
+    color: #FDFBF5;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+#description{
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+ul{
+    color: #D6D6D6;
+    list-style: none;
+    margin: 40px auto;
+    max-width: 700px;
+    text-align: left;
+}
+
+li{
+    background: #181818;
+    color: #B8B8B8;
+    border: 1px solid #2A2A2A;
+    border-radius: 20px;
+    padding: 18px 22px;
+    margin-bottom: 18px;
+    line-height: 1.7;
+    transition:.3s;
+}
+
+li:hover{
+    border-color:#D4AF37;
+}
+
+.bold{
+    color: #D4AF37;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#price{
+    color: #F5D76E;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+#p{
+    color: #FFD76A;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 180px;
+    padding: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,.45);
+    transition:
+        background-color .3s,
+        transform .3s,
+        color .3s;
+}
+
+#primary{
+    background-color: #D4AF37;
+    color: #0B0B0B;
+    border: none;
+}
+
+#primary:hover{
+    background-color: #E6C458;
+    transform: translateY(-3px);
+}
+
+#primary:active{
+    background-color: #B88B17;
+    transform: scale(1.05);
+}
+
+#secondary{
+    background-color: transparent;
+    color: #D4AF37;
+    border: 1px solid #D4AF37;
+}
+
+#secondary:hover{
+    background-color: #D4AF37;
+    color: #0B0B0B;
+    transform: translateY(-3px)
+}
+
+#secondary:active{
+    background-color: #D4AF37;
+    color: #0B0B0B;
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: #0C0C0C;
+    border: 2px solid #242424;
+    color: #8A8A8A;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #logo{
+        width: 65px;
+    }
+
+    #hero{
+        width: 95%;
+        padding: 35px 25px;
+        margin: 30px auto;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    #description{
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+
+    #laptop{
+        width: 100%;
+        max-width: 260px;
+    }
+
+    ul{
+        margin: 30px auto;
+    }
+
+    li{
+        padding: 16px 18px;
+        font-size: 0.95rem;
+    }
+
+    #price{
+        font-size: 1.2rem;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    button{
+        width:100%;
+        max-width:220px;
+    }
+
+    footer{
+        padding: 20px;
+        margin-top: 50px;
+    }
+}
