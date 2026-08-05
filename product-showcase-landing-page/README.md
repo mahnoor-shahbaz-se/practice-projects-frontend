@@ -1,4 +1,7 @@
 # Vantage Pro 14 — Product Showcase Landing Page
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-D4AF37?style=for-the-badge)](https://mahnoor-shahbaz-se.github.io/practice-projects-frontend/product-showcase-landing-page/)
+
 A single-page product showcase landing page inspired by premium tech-brand marketing pages. Built to practice layout composition, responsive design, and interaction polish using vanilla HTML and CSS — no framework, no JS yet.
 
 ## What it demonstrates
@@ -14,7 +17,6 @@ A single-page product showcase landing page inspired by premium tech-brand marke
 - CSS3 (Flexbox, gradients, `box-shadow` layering, transitions)
 
 ## Screenshot
-
 <table>
   <tr>
     <td><strong>Desktop</strong></td>
