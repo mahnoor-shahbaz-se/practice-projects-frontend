@@ -1,6 +1,6 @@
 # Profile Card
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-E6396D?style=for-the-badge)](LIVE_URL_HERE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-E6396D?style=for-the-badge)](https://mahnoor-shahbaz-se.github.io/practice-projects-frontend/profile-card/)
 
 A responsive personal profile card built with vanilla HTML and CSS — practicing centered layouts, card-based design, and hover/interaction states.
 
