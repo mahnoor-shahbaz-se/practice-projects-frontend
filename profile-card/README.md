@@ -22,7 +22,7 @@ A responsive personal profile card built with vanilla HTML and CSS — practicin
     <td><strong>Mobile</strong></td>
   </tr>
   <tr>
-    <td><img src="DESKTOP_SCREENSHOT_URL" width="400"></td>
-    <td><img src="MOBILE_SCREENSHOT_URL" width="180"></td>
+    <td><img src="https://github.com/user-attachments/assets/1dde62e1-45c4-46ac-8a7a-9f06fa4f7563" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/44260a37-a4ec-4dac-88ec-d41deb20ba39" width="180"></td>
   </tr>
 </table>
