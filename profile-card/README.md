@@ -4,18 +4,27 @@
 
 A responsive personal profile card built with vanilla HTML and CSS — practicing centered layouts, card-based design, and hover/interaction states.
 
-## What it demonstrates
+---
+
+## What it Demonstrates
+
 - CSS Grid for full-page centering (`place-items: center`)
 - Card component with border, shadow, and hover state transitions
 - Custom favicon
 - Simple skill-tag layout using flex and pill-shaped list items
 - Responsive width adjustment at smaller viewports
 
+---
+
 ## Tech
+
 - HTML5
 - CSS3 (Grid, Flexbox, transitions)
 
+---
+
 ## Screenshot
+
 <table>
   <tr>
     <td><strong>Desktop</strong></td>
@@ -26,3 +35,10 @@ A responsive personal profile card built with vanilla HTML and CSS — practicin
     <td><img src="https://github.com/user-attachments/assets/44260a37-a4ec-4dac-88ec-d41deb20ba39" width="180"></td>
   </tr>
 </table>
+
+---
+
+## Author
+
+**Mahnoor Shahbaz**
+[LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; [Email](mailto:mahnoorshahbaz86@gmail.com) &nbsp;|&nbsp; [GitHub](https://github.com/mahnoor-shahbaz-se)
