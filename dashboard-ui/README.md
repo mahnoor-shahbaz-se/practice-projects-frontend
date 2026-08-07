@@ -1,6 +1,6 @@
 # Admin Dashboard UI
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-8A5C42?style=for-the-badge)](https://mahnoor-shahbaz-se.github.io/dashboard-ui/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-8A5C42?style=for-the-badge)](https://mahnoor-shahbaz-se.github.io/practice-projects-frontend/dashboard-ui/)
 
 A responsive admin dashboard interface built with vanilla HTML and CSS — practicing complex layout composition, data presentation, and a cohesive design system across multiple UI patterns in a single page.
 
